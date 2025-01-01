@@ -41,6 +41,7 @@ html, body {
      word-wrap: break-word; /* Breaks long words to fit within the container */
      word-break: break-word; /* Breaks words at any point if they are too long */
      line-height: 1.6; /* Adds some space between lines for better readability */
+     margin: 0 0;
  }
  
  footer {
