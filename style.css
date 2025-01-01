@@ -7,6 +7,7 @@ html, body {
  body {
      background-image: url('https://images3.alphacoders.com/856/856363.jpg');
      background-size: cover;
+     background-position: center center;
      color: #333; /* Dark gray text for better contrast */
      background-attachment: fixed;
      display: flex;
