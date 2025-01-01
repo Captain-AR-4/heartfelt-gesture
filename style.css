@@ -62,7 +62,7 @@ html, body {
  
  @media (min-width: 768px) {
      p {
-         max-width: 50%; /* Restrict text width to 80% of the parent container on larger screens */
+         max-width: 50%; /* Restrict text width to 50% of the parent container on larger screens */
          margin: 0 auto; /* Centers the text */
      }
  }
