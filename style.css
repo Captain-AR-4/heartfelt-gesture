@@ -1,46 +1,54 @@
-* {
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
- }
- 
- body {
-     font-family: 'Arial', sans-serif;
-     background: #f7e6e6;
-     color: #333;
- }
- 
- .container {
-     width: 100%;
-     max-width: 600px;
-     margin: 0 auto;
-     padding: 20px;
- }
- 
- header {
-     text-align: center;
-     margin-bottom: 20px;
- }
- 
- header h1 {
-     font-size: 2em;
-     color: #f58a8a;
- }
- 
- .content {
-     text-align: center;
- }
- 
- .message {
-     font-size: 1.5em;
-     margin: 15px 0;
-     color: #f58a8a;
- }
- 
- footer {
-     text-align: center;
-     margin-top: 30px;
-     font-size: 1.2em;
-     color: #f58a8a;
- }
- 
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+body {
+    background-image: url('https://images3.alphacoders.com/856/856363.jpg');
+    background-size: cover;
+    color: #f4f4f4;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures footer sticks to the bottom */
+    text-align: center;
+    padding: 0 10px; /* Adjust padding to remove unnecessary space */
+    overflow: hidden;  /* Prevents the page from overflowing */
+    box-sizing: border-box; /* Includes padding and borders in the element's total width and height */
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em; /* Slightly reduced size to fit better */
+    color: #f8c8d3;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+    margin-top: 10px;
+}
+
+.message {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 1.2em; /* Slightly smaller font size */
+    margin: 10px 0;
+    color: #f4f4f4;
+    animation: fadeIn 2s ease-in-out;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+footer {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 1.2em;
+    color: #f4f4f4;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
